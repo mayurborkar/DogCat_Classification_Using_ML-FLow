@@ -1,9 +1,11 @@
 ### dependency
-tqdm
-dvc
+tensorflow
+mlflow
 pandas
-numpy
 PyYAML
+Pillow
+numpy
+tqdm
 
 ### local packages -
 # -e . # << uncomment this to install from setup.py
