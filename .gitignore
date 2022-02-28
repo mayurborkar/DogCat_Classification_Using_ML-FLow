@@ -140,3 +140,4 @@ configs/secrets.yaml
 # add your env folder here if its there
 data/data.zip
 logs/running_logs.log
+logs/running_logs.log
