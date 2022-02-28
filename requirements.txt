@@ -8,4 +8,4 @@ numpy
 tqdm
 
 ### local packages -
-# -e . # << uncomment this to install from setup.py
+-e . # << uncomment this to install from setup.py
