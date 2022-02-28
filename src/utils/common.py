@@ -1,3 +1,4 @@
+from zipfile import ZipFile
 import pandas as pd
 import logging
 import json
@@ -24,7 +25,12 @@ def save_json(path: str, data: dict) -> None:
     logging.info(f"json file saved at: {path}")
 
 
+def unzip_files(source: str, dest:str) -> None:
+    logging.info(f"Extraction Started....")
 
+    with ZipFile(source, 'r') as zip_f:
+        zip_f.extractall(dest)
+    logging.info(f"Extraction From {source} to {dest}")
 
 
 
