@@ -7,6 +7,7 @@ data:
   bad_data_dir: bad_data
   model_dir: model
   init_model_file: init_model.h5
+  trained_model_file: trained_model.h5
 
 
 params:
@@ -14,6 +15,12 @@ params:
   lr: 0.001
   loss: sparse_categorical_crossentropy
   metrics: ["accuracy"]
+  validation_split: 0.2
+  batch_size: 32
+  seed: 42
+  buffer_size: 32
+  epochs: 1
+
 
 
 
