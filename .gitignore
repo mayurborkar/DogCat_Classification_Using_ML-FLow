@@ -139,5 +139,8 @@ configs/secrets.yaml
 
 # add your env folder here if its there
 data/data.zip
+data2/PetImages
 logs/running_logs.log
 logs/running_logs.log
+data2/readme*
+data2/MSR-LA - 3467.docx
