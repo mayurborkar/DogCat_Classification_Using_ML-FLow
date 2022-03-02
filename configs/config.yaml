@@ -5,6 +5,8 @@ data:
   unzip_data_dir: data2
   parent_data_dir: PetImages
   bad_data_dir: bad_data
+  model_dir: model
+  init_model_file: init_model.h5
 
 
 params:
