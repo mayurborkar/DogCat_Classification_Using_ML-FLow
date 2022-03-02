@@ -6,6 +6,7 @@ PyYAML
 Pillow
 numpy
 tqdm
+pep8
 
 ### local packages -
 -e . # << uncomment this to install from setup.py
