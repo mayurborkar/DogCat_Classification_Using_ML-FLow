@@ -29,7 +29,7 @@ def main(config_path):
     data_file = config["data"]["data_file"]
     data_file_path = os.path.join(local_dir, data_file)
 
-    #Check The File Is Present Or Not
+    #Check The File Is Present Or Not. If Not Download tHe Zip File
     if not os.path.isfile(data_file_path):
         logging.info(f"Downloading Started....")
 

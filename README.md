@@ -1,5 +1,5 @@
-# DVC-Template
-It is general file structure that can be used for DVC implementation.
+# It is Dog-Cat Classification Using Mlflow
+It is Dog-Cat Classification Model that be implemented using Mlflow.
 
 ## STEPS -
 
