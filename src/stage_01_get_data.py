@@ -1,4 +1,5 @@
 from src.utils.common import read_yaml, create_directories, unzip_files
+from src.utils.data_mgmt import validate_image
 import urllib.request as req
 from tqdm import tqdm
 import argparse
@@ -46,6 +47,9 @@ def main(config_path):
         unzip_files(source=data_file_path, dest=unzip_data_dir)
     else:
         logging.info(f"Data Already Extracted")
+
+    # validating data
+    validate_image(config)
 
 
 if __name__ == '__main__':
