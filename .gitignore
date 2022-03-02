@@ -138,6 +138,7 @@ dmypy.json
 configs/secrets.yaml
 
 # add your env folder here if its there
+mlruns/
 data/data.zip
 data2/PetImages
 data2/bad_data
