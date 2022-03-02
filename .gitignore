@@ -146,3 +146,4 @@ logs/running_logs.log
 data2/readme*
 data2/MSR-LA - 3467.docx
 logs/running_logs.log
+data/model/init_model.h5
